@@ -1,0 +1,241 @@
+.lownav {
+  position: top;
+  width: 1280px;
+  height: 4spx;
+  left: -2px;
+  top: 90px;
+  border: 4px solid #157a6a;
+}
+
+.backgro {
+  background-color: rgba(255, 252, 237, 1);
+}
+
+.imagor1 {
+  position: absolute;
+  width: 476px;
+  height: 300px;
+  left: 50px;
+  top: 950px;
+
+  border-radius: 25px;
+}
+
+.topnav {
+  background-color: rgba(255, 252, 237, 1);
+  overflow: hidden;
+  border-bottom: 3px solid rgba(21, 122, 106, 1);
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  display: block;
+}
+.image_logo {
+  background-color: rgba(255, 252, 237, 1);
+  width: 84px;
+  height: 65px;
+  float: left;
+  margin-left: 42px;
+  margin-right: 152px;
+}
+
+.topnav a {
+  margin-left: 48px;
+  font-family: regular;
+  float: left;
+  color: black;
+  display: block;
+  background-color: rgba(255, 252, 237, 1);
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav .btn-primary {
+  width: 80px;
+  height: 50px;
+  border: 0px;
+  border-radius: 9px;
+  margin-right: 50px;
+  float: right;
+  padding: 12px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(21, 122, 106, 1);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.topnav .btn-primary:hover {
+  color: white;
+  opacity: 0.1px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.topnav a:hover {
+  color: rgba(21, 122, 106, 1);
+}
+
+.topnav a.active {
+  color: rgba(21, 122, 106, 1);
+}
+
+.backgroundimg {
+  background-image: url("../Photo/bg.jpeg");
+  margin-top: -68px;
+  padding: 180px 0 165px;
+  margin-bottom: -200px;
+  background-size: cover;
+}
+.judul {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: rgb(255, 255, 255);
+}
+
+.judul p {
+  font-size: 22px;
+}
+
+.faci {
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.fasility1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  padding: 0px 20px;
+  float: left;
+}
+
+.fasility1 b {
+  font-size: 30px;
+}
+
+.img1 {
+  border-radius: 10px;
+}
+.facility2 {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 95%;
+  padding: 0px 20px;
+  justify-content: space-between;
+  margin-top: 6%;
+}
+
+.facility2 b {
+  font-size: 30px;
+}
+
+.img2 {
+  border-radius: 10px;
+}
+
+.facility3 {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width: 95%;
+  padding: 0px 20px;
+  justify-content: space-between;
+  margin-top: 6%;
+}
+
+.facility3 b {
+  font-size: 30px;
+}
+.img3 {
+  border-radius: 10px;
+}
+.slide {
+  display: none;
+  border-radius: 10px;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+.footer-dark .maps {
+  margin-bottom: 10px;
+}
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item h3 {
+  width: 100%;
+  padding: 0px 90px;
+}
+.item ul {
+  width: 100%;
+  padding: 0px 90px;
+}
+
+.container h2 {
+  margin-top: 40%;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+}
